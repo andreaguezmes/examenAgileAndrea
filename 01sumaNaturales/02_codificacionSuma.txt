@@ -1,0 +1,2 @@
+Codigo para poder sumar dos números naturales introducidos manualmente por el usuario
+y poder conocer el valor resultado
