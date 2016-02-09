@@ -1,0 +1,3 @@
+A partir del codigo desarrollado en TDDError.txt:
+Codigo para poder recibir el mensaje "ERROR, resultado negativo" 
+cuando la resta la variable resultado no sea un numero natural positivo.
