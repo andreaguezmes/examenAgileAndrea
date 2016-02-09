@@ -1,0 +1,4 @@
+Codigo para poder utilizar la notación de números romanos 
+y poder utilizarlo como herramienta de apoyo para los niños.
+Tranformacion de numeros naturales en numeros romanos 
+y realizacion de la operacion suma con numeros romanos.
