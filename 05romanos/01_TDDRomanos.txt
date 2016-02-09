@@ -1,0 +1,7 @@
+TDD Numeros Romanos
+-Creamos pruebas para que si pasamos el valor 2  nos devuelve "II".
+-Creamos pruebas para que si pasamos el valor II y III en forma de suma nos devuelve "V".
+Una vez pasadas todas las pruebas se intenta unificar el código, 
+asegurándonos de que sigue pasando estas pruebas.
+
+**esto es un ejemplo de pruebas, aunque no son las unicas que se pueden hacer
