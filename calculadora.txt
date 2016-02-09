@@ -46,7 +46,7 @@ HU3restaNaturales
 	tareas: TDDResta
 		codificacionResta
 		RefactorizarResta
-	*Esta historia de usuario bloquea a HU4restaError
+	*Esta historia de usuario NO bloquea a HU4restaError ya que he buscado un procedimiento que no necesite el codigo de una en otra (ver archivos de tareas)
 
 HU4restaError
 	estimacion: 3
@@ -63,6 +63,16 @@ HU5romanos
 	tareas: TDDRomanos
 		codificacionRomanos
 		RefactorizarRomanos
+
+*****************************************************************************************************************
+Considero que mi sprint abarcará las cinco historias de usuario 
+(tengo un equipo de seniors con mucha experiencia y somos optimistas)
+
+*****************************************************************************************************************
+El enunciado recomienda utilizar tareas por rama, pero en este caso las tareas son autobloqueantes, 
+así que se opta por la opcion de historia de usuario por rama y la tareas en cada historia.
+(de todas formas la ultima historia (HU5romanos) la realizo con el método de tarea por rama, 
+para mostrar que se realizar las distintas opciones)
 
 *****************************************************************************************************************
 	METODOLOGIA DE Test-driven development (TDD)
