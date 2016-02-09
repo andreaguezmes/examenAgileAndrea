@@ -1,0 +1,9 @@
+TDD Suma
+Como el requisito pide trabajar con numeros naturales:
+-Creamos pruebas para que si pasamos los valores 2 y 3 el resultado que nos devuelve es 5.
+-Creamos pruebas para que si pasamos los valores 0 y 1 el resultado que nos devuelve es 1.
+-Creamos pruebas para que si pasamos los valores 1 y 0 el resultado que nos devuelve es 1.
+Una vez pasadas todas las pruebas (si hubiese varias) se intenta unificar el código, 
+asegurándonos de que sigue pasando estas pruebas.
+
+**esto es un ejemplo de pruebas, aunque no son las unicas que se pueden hacer
