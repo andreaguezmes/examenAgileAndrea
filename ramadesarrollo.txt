@@ -1,0 +1,11 @@
+Esta rama engloba todas las historias de usuario:
+
+-HU1sumaNaturales
+	
+-HU2multNaturales
+	
+-HU3restaNaturales
+
+-HU4restaError
+	
+-HU5romanos

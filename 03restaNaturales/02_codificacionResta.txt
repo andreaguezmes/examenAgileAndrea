@@ -1,0 +1,4 @@
+Codigo para poder restar dos números naturales introducidos manualmente por el usuario
+y poder conocer el valor resultado, siendo éste otro número natural
+
+La salida de este código no se muestra por pantalla sino que se almacena en la variable "resultado" utilizada tambien por HU4restaError

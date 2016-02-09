@@ -1,0 +1,10 @@
+TDD Mensaje de Error en Resta
+Como el requisito pide trabajar con numeros naturales:
+Creamos pruebas para comprobar que una variable llamada resultado (que procedera de codificacionResta.txt una vez la aplicacion sea funcional) 
+NO está situada entre los numeros 0 e infinito (numeros naturales)
+Probar que al introducir la variable recibimos el mensaje "ERROR, resultado negativo".
+
+Una vez pasadas todas las pruebas (si hubiese varias) se intenta unificar el código, 
+asegurándonos de que sigue pasando estas pruebas.
+
+**esto es un ejemplo de pruebas, aunque no son las unicas que se pueden hacer
