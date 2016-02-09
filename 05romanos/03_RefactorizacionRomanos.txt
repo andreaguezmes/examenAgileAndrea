@@ -1,0 +1,8 @@
+Refactorizacion Romanos:
+-Ejecutar las pruebas automatizadas: Verificar si todo el conjunto de pruebas funciona correctamente.
+-Eliminación de duplicación: refactorización, para eliminar código duplicado. 
+-Actualización de la lista de requisitos
+
+
+**Esto en realidad sería una modificacion de los otros archivos, 
+no un archivo nuevo, pero requiere un commit, asi que en este caso le creo un archivo
