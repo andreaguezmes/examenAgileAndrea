@@ -1,0 +1,76 @@
+Se plantea un programa Calculadora con las siguientes funciones:
+
+1.Como usuario quiero poder sumar dos números naturales 
+para poder conocer el valor resultado.
+
+2.Como usuario quiero poder multiplicar dos números naturales 
+para poder conocer el valor resultado.
+
+3.Como usuario quiero poder restar dos números naturales 
+para poder conocer el valor resultado. 
+El resultado debe ser otro número natural.
+
+4.Como usuario quiero saber cuándo no se puede realizar una resta 
+para poder saber que me he equivocado.
+
+5.Como usuario quiero poder utilizar notación de números romanos para 
+poder utilizarlo como herramienta de apoyo para los niños.
+
+
+***************************************************************************************************************
+Considero los numeros naturales del 0 a infinito
+***************************************************************************************************************
+
+A raiz de los requisitos planteados se definen las siguientes historias de usuario:
+
+HU1sumaNaturales
+	estimacion: 2
+	historia hecha: sumar correctamente dos numeros naturales
+	prioridad: (segun cliente) 1
+	tareas: TDDSuma
+		codificacionSuma
+		RefactorizarSuma
+
+HU2multNaturales
+	estimacion: 4
+	historia hecha: multiplicar correctamente dos numeros naturales
+	prioridad: (segun cliente) 2
+	tareas: TDDMultiplicacion
+		codificacionMultiplicacion
+		RefactorizarMultiplicacion
+
+HU3restaNaturales
+	estimacion: 3
+	historia hecha: restar correctamente dos numeros naturales
+	prioridad: (segun cliente) 3
+	tareas: TDDResta
+		codificacionResta
+		RefactorizarResta
+	*Esta historia de usuario bloquea a HU4restaError
+
+HU4restaError
+	estimacion: 3
+	historia hecha: recibir un mensaje de error cuando el resultado de la resta no sea un numero natural
+	prioridad: (segun cliente) 4
+	tareas: TDDError
+		codificacionError
+		RefactorizarError
+
+HU5romanos
+	estimacion: 4
+	historia hecha: transformar correctamente numeros naturales a romanos y realizar la operacion suma con ellos
+	prioridad: (segun cliente) 5
+	tareas: TDDRomanos
+		codificacionRomanos
+		RefactorizarRomanos
+
+*****************************************************************************************************************
+	METODOLOGIA DE Test-driven development (TDD)
+
+* Elegir un requisito
+* Escribir una pruebar 
+* Verificar que la prueba falla
+* Escribir la implementación (principio_KISS)
+* Ejecutar las pruebas automatizadas
+* Eliminación de duplicación
+* Actualización de la lista de requisitos
